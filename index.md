@@ -27,4 +27,4 @@ title: Welcome to Croncode
 
 ---
 
-*For technical details and updates, check out our [Blog](/blog/).*
+*For technical details and updates, check out our [Documentation](/documentation/).*
