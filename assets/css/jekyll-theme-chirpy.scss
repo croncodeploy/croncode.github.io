@@ -9,3 +9,11 @@
 ';
 
 /* append your custom style below */
+
+#sidebar #avatar {
+  border-radius: 5px !important;
+}
+
+#sidebar #avatar > img {
+  border-radius: 5px !important;
+}
