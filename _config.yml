@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/croncode-640.jpg"
+avatar: "/assets/img/croncode-900.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -149,6 +149,13 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 # The base URL of your site
 baseurl: ""
@@ -213,9 +220,6 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - purgecss.js
-  - "*.config.js"
-  - "package*.json"
 
 jekyll-archives:
   enabled: [categories, tags]
