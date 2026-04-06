@@ -200,6 +200,12 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+      toc: true
+  - scope:
+      path: "documentation"
+    values:
+      layout: page
+      toc: true
 
 sass:
   style: compressed
