@@ -2,7 +2,7 @@
 
 # A simple Jekyll plugin to auto-increment the version based on GitHub Run Number
 
-Jekyll::Hooks.register :site, :after_init do |site|
+Jekyll::Hooks.register :site, :pre_render do |site|
   # Default to 0 if not running in CI
   rev = ENV['GITHUB_RUN_NUMBER'] || '0'
   
